@@ -1,0 +1,38 @@
+body{
+	background-color: $primary-color;
+    color: $secondary-color;
+}
+img{
+	max-width: 100%
+}
+
+
+.container{
+    h2{
+        color: $secondary-color;
+    }
+}
+.marcas{
+	background-color: $primary-color;
+	padding: 80px 120px;
+	margin-top: 50px;
+}
+.zapas-uno{
+	background-color: $primary-color;
+	padding: 40px 0;
+	
+}
+
+
+.tabla-zapas1{
+	background-color:#ffffff ;
+}
+
+.form-group{
+	max-width: 674px;
+	margin: 0 auto;
+	text-align: center;
+}
+.sesion{
+	margin-top: 100px;
+}

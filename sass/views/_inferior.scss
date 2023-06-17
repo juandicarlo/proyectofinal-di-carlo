@@ -1,0 +1,33 @@
+.container-inferior{
+    background-color: $primary-color;
+    margin: 100px auto;
+    width: 1520px;
+    height: 2100px;
+    padding: 50px;
+    box-shadow: 0 0 20px 2px $secondary-color;
+
+    background-image: url(/assets/img/fondoinferior.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+  @include small-screen {
+    .container-inferior{
+        padding: 5px;
+    }
+  }
+
+  @include medium-screen {
+    .container-inferior {
+        padding: 10px;
+  }
+
+  @include large-screen {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+}
+

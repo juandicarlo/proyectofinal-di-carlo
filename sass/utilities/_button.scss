@@ -1,0 +1,66 @@
+.btn{
+    &.btn-cta{
+        @include btn($primary-color, $secondary-color, "true");
+        &:hover{
+            @include btn($secondary-color, $terciary-color, "true");
+            box-shadow: $box-shadow;
+
+        }
+    }
+
+}
+.btn{
+  margin-top: 10px;
+	flex: content;
+	width: fit-content;
+	background-color: transparent;
+	color: #000000;
+	border: 1px solid #000000;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 48px;
+}
+
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+button:hover, button:focus {
+    border-color: var(--hover);
+    color: #080808;
+  }
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+.raise {
+    --color: #ffffff;
+    --hover: #dddcd2;
+    background-color: $secondary-color;
+    margin-top: 15px;
+  }
+  .offset {
+    box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+    margin-top: 10px;
+  }
+  .offset:hover, .offset:focus {
+    box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+  }
+  .offset {
+    --color: $secondary-color;
+    --hover: #ffffff;
+  }

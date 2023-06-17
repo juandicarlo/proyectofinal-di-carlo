@@ -1,0 +1,40 @@
+.home{
+    background-color: $primary-color;
+}
+
+.container-inicio{
+    background-color: $primary-color;
+    margin: 100px auto;
+    width: 1520px;
+    height: 1500px;
+    padding: 50px;
+    background-size: 100% 100%;
+
+
+}
+
+.main-index{
+    height: 100%;
+}
+
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .menu li {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+
+
+.subti{
+	color: black;
+}
+
+.ul-navbar{
+	display: flex;
+  }

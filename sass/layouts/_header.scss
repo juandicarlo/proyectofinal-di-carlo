@@ -1,0 +1,38 @@
+.header__bg{
+	background-blend-mode: multiply, multiply, normal;
+	display: block;
+}
+.navbar .collapse.navbar-collapse{
+    a{
+		color: $secondary-color;
+	}
+	flex-grow: inherit;
+}
+.navbar a{
+    color: $secondary-color;
+}
+.navbar .navbar-toggler{
+    border-color: $secondary-color;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.nav-link a{
+	color: $secondary-color;
+}
+.tittlepag{
+	font-size: 56px;
+}
+.tittlep{
+	font-size: 24px;
+}
+.header__content{
+	height: calc(100vh - 56px);
+}
+header{
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

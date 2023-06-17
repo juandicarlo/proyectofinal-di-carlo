@@ -1,0 +1,90 @@
+@media (min_width: 1400px) {
+    nav, .container, .footer-content{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+
+@media (min_width: $breakpoint-small){
+    .header__img{
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+	.img-fluid{
+		width: auto;
+		height: auto;
+		object-fit: cover;
+	}
+
+}
+@media (max-width: $breakpoint-medium) {
+	.menu li {
+	  display: block;
+	  margin-bottom: 10px;
+	}
+	
+	.menu li button {
+	  display: block;
+	  width: 100%;
+	}
+  }
+  
+@media (min_width: $breakpoint-medium){
+    .header__img{
+		width: auto;
+		height: auto;
+		object-fit: cover;
+	}
+	.img-fluid{
+		width: auto;
+		height: auto;
+		object-fit: cover;
+	}
+}
+
+@media (min_width: $breakpoint-large) {
+		.zapas-uno{
+			padding: 80px 120px;
+		}
+		
+}
+  
+  @media (max-width: $breakpoint-small){
+	img{
+		max-width: 100%;
+	}
+	.container-inicio{
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	}
+	.navbar-home{
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+	.header__img{
+		width: auto;
+		height: auto;
+		object-fit: cover;
+	}
+	
+
+}
+@media (max-width: $breakpoint-large){
+.container-inicio{
+max-width: 100%;
+height: auto;
+object-fit: cover;
+}
+.footer__content{
+	padding: 80px 120px;
+  }
+.navbar-home{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+}

@@ -1,0 +1,96 @@
+@function size($value){
+    @return $value * $unit;
+}
+@mixin reset-pm{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    margin-top: 100px;
+    .col{
+        width: 50%;
+    }
+    .col-30{
+        width: 30%;
+    }
+    .col-70{
+        width: 70%;
+    }
+}
+.m-auto{
+    margin: 0 auto;
+}
+@for $i from 1 to $limit{
+    .m-#{$i}{
+        margin: $i * $unit;
+    }
+    .p-#{$i}{
+        padding: $i * $unit 0;
+    }
+}
+@for $i from 1 to 4{
+    .w-#{$i}{
+        width: $i * 25%;
+    }
+}
+
+.banner{
+	background-color: $primary-color;
+	padding:40px 0;
+  }
+  
+  .banner div:first-child{
+	max-width: 674px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  .banner h2{
+	font-size: clamp(3rem, 10vw, 100px);
+	color: $secondary-color;
+  }
+  
+  .banner p{
+	font-size: 16px;
+	color: $secondary-color;
+  }
+  
+  .banner__button{
+	width: fit-content;
+	background-color: transparent;
+	color: $secondary-color;
+	border: 1px solid  $secondary-color;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 48px;
+  }
+  .inicio-sesion{
+	margin-top: 20px;
+  }
+  footer{
+	background-color: $terciary-color;
+  }
+  
+  .footer__content{
+	padding: 40px 0;
+  }
+  
+
+  
+  .footer__nav{
+	border-bottom: 1px solid $secondary-color;
+	padding-bottom: 40px;
+  }
+  .svg{
+	width: 50px;
+	height: 50px;
+  }
+  
+  .footer__content nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: 20px;
+  }
